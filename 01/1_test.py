@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from os import name, system
+
 def banner():
     system("cls" if name == "nt" else "clear")
     print(BRIGHT + GREEN)
